@@ -36,4 +36,9 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // https://mvnrepository.com/artifact/com.google.dagger/dagger
+    implementation group: 'com.google.dagger', name: 'dagger', version: '2.37'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.37'
+
 }
